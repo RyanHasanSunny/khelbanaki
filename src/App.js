@@ -11,6 +11,7 @@ function App() {
           {/* Add more routes here if needed */}
         </Routes>
       </div>
+      {/* Optionally, you can add the header or any other components here */}
     </Router>
   );
 }
