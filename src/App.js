@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LoginPage from "./components/LoginPage";
+
+import LoginPage from "./components/front-end/login-page/LoginPage";
+
 
 function App() {
   return (
@@ -11,7 +13,6 @@ function App() {
           {/* Add more routes here if needed */}
         </Routes>
       </div>
-      {/* Optionally, you can add the header or any other components here */}
     </Router>
   );
 }
