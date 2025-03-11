@@ -6,6 +6,7 @@ import LoginPage from "./components/front-end/login-page/LoginPage";
 
 function App() {
   return (
+
     <Router>
       <div className="App flex justify-center items-center h-screen bg-gray-100">
         <Routes>
@@ -14,6 +15,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+
   );
 }
 
